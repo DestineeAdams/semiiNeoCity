@@ -7,7 +7,7 @@ body {
 
     font-family: "Open Sans", "sans-serif";
 
-    margin: 10% 30%;
+    margin: 5% 30%;
     /* padding: 1% 20%; */
     text-align: justify;
 
@@ -49,4 +49,13 @@ body {
     
     text-decoration-line: underline;
     text-decoration-color: #b2b4a8;
+  }
+
+  #profileImg{
+    width: 50%;
+    border-radius: 8px;
+  }
+  
+  .homePage{
+    text-align: center;
   }
