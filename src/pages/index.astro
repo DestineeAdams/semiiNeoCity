@@ -1,7 +1,8 @@
 ---
 import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
-import Neocities from '../components/neocities.astro';
+import BasicLayout from '../layouts/basicLayout.astro';
+import NeocitiesButton from '../components/neocitiesButton.astro';
+
 ---
 
 <!DOCTYPE html>
@@ -18,31 +19,37 @@ import Neocities from '../components/neocities.astro';
 
 <body>
 
-    <Navigation />
+    <BasicLayout title={"Home Page"}>
 
-    <div class="homePage">
+        <div class="homePage">
 
-        <h1>welcome!</h1>
+            <h1>welcome!</h1>
 
-        <h1>Semii</h1>
-        <img id="profileImg" src="../public/meInAHoody.jpg"
-            alt="me in a light blue Hoodie with the word PINK across the chest">
+            <h1>Semii</h1>
+            <img id="profileImg" src="../public/meInAHoodyDithered2.png"
+                alt="me in a light blue Hoodie with the word PINK across the chest">
 
-        <p>
-            Hi!
+            <p>
+                Hi!
+                <br>
+                I'm Semii!
+            </p>
+
+            <p>Some fun facts about me:</p>
+            <ul>
+                <li>I enjoy staying active</li>
+                <li>I've have several jobs in education</li>
+                <li>I find yard work satisfying</li>
+            </ul>
+            
             <br>
-            I'm Semii!
-        </p>
 
-        <p>Some fun facts about me:</p>
-        <ul>
-            <li>I enjoy staying active</li>
-            <li>I've have several jobs in education</li>
-            <li>I find yard work satisfying</li>
-        </ul>
 
-        <Neocities />
-    </div>
+            <NeocitiesButton />
+
+        </div>
+
+        </BasicLayout>
 
 
 </body>

@@ -1,0 +1,37 @@
+---
+import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
+import Neocities from '../components/neocitiesButton.astro';
+
+interface Props {
+    title: string;
+    // subtitle: string;
+    // description: string;
+}
+const {title} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{title}</title>
+</head>
+
+<body>
+    
+    <Navigation />
+    <slot />
+
+    
+
+</body>
+
+</html>
+
+<style>
+
+</style>

@@ -11,8 +11,8 @@ body {
     /* padding: 1% 20%; */
     text-align: justify;
 
-    background-image: url('../public/background.jpg');
-    background-size: 100%;
+    background-image: url('../public/ditheredleaves.png');
+    background-size:100%;
     background-repeat: repeat-y;
 
   }
@@ -20,6 +20,9 @@ body {
   div{
  
     background-color: #6faf69;
+    background-image: url('../public/dithered-image.png');
+    background-size: auto;
+
     border-radius: 8px;
     
     padding: 50px;
@@ -58,4 +61,11 @@ body {
   
   .homePage{
     text-align: center;
+  }
+  
+  
+  ul {
+    display: inline-block; 
+	  text-align: left;
+	  padding-left: 100ppx;
   }
