@@ -55,9 +55,10 @@ body {
     text-decoration-color: #b2b4a8;
   }
 
-  #profileImg{
+  img{
     width: 50%;
     border-radius: 8px;
+    margin: 15px;
   }
   
   ul {
