@@ -1,14 +1,14 @@
 ---
 import '../styles/global.css';
 import Navigation from '../components/Navigation.astro';
-import Neocities from '../components/neocitiesButton.astro';
 
 interface Props {
+    pagetitle: string;
     title: string;
-    // subtitle: string;
-    // description: string;
+    subtitle: string;
+    description: string;
 }
-const {title, subtitle, description} = Astro.props;
+const {pagetitle, title, subtitle, description} = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -17,8 +17,9 @@ const {title, subtitle, description} = Astro.props;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>{title}</title>
+    
+    <link rel="icon" type="image/x-icon" href="../public/favicon.ico">
+    <title>{pagetitle}</title>
 </head>
 
 <body>
