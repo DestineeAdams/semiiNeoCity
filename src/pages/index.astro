@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Navigation from '../components/Navigation.astro';
+import Neocities from '../components/neocities.astro';
 ---
 
 <!DOCTYPE html>
@@ -16,23 +17,38 @@ import Navigation from '../components/Navigation.astro';
 </head>
 
 <body>
-   
-	<Navigation />
-    
-    <div>
 
-        <h1>welcome</h1>
-        <p> Here are some resources</p>
-    
-        <p><a href="p5projectinpso.html"> p5 project for inspiration </a></p>
-        <p><a href="artsites.html"> resources of art </a></p>
-        <p><a href="micahlist.html"> Micah website list </a></p>
-        <p><a href="favarticles.html"> Articles I loved</a></p>
-      
+    <Navigation />
 
-       
+    <div class="homePage">
+
+        <h1>welcome!</h1>
+
+        <h1>Semii</h1>
+        <img id="profileImg" src="./public/meInAHoody.jpg"
+            alt="me in a light blue Hoodie with the word PINK across the chest">
+
+        <p>
+            Hi!
+            <br>
+            I'm Semii!
+        </p>
+
+        <p>Some fun facts about me:</p>
+        <ul>
+            <li>I enjoy staying active</li>
+            <li>I've have several jobs in education</li>
+            <li>I find yard work satisfying</li>
+        </ul>
+
+        <Neocities />
     </div>
-    
+
+
 </body>
 
 </html>
+
+<style>
+
+</style>
