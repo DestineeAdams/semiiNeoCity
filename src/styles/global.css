@@ -24,7 +24,7 @@ body {
     background-image: url('../public/dithered-image.png');
     background-size: auto;
 
-    border-radius: 8px;
+    border-radius: 5px;
     
     padding: 50px;
     
@@ -57,7 +57,7 @@ body {
 
   img{
     width: 50%;
-    border-radius: 8px;
+    border-radius:5px;
     margin: 15px;
   }
   

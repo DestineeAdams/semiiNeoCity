@@ -7,3 +7,7 @@ colors:
 #f6fadd off white
 #ead49d yellow
 #6cffb9 other green
+
+#f4dea2
+#90a4db
+#b2b4a8

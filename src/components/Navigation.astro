@@ -4,27 +4,29 @@
 
 <nav class="nav-links">
 
-    <a href="/">HOME</a>
-    <a href="../resourcesPage">RESOURCES</a>
+    <a class="navTabs" href="/">HOME</a>
+    <a class="navTabs" href="../resourcesPage">RESOURCES</a>
 
 </nav>
 
 
 <style>
 
-    a{
-        background-color: rgb(23, 5, 57);
+    a.navTabs{
+        background-color: #90a4db;
         background-image: url('../public/ditheredleaves.png');
 
-        padding: 10px;
-        border-radius: 10px;
+        padding: 8px;
         
+        border-radius: 5px;
         background-size: auto;
+        
+        font-weight: bold;
         
     }
     
     nav{
-        margin: 25px;
+        margin: 10px 1px 25px;
         padding: 20px;
         text-align: center;
         background-color: #6faf69;
@@ -33,4 +35,22 @@
         background-size: 100px;
 
     }
+    
+    a.navTabs {
+    color: #f4dea2;
+
+    text-decoration-line: none;
+    text-transform: capitalize;
+
+
+  }
+
+  a:hover.navTabs {
+    color: #90a4db;
+    text-transform: uppercase;
+    
+    text-decoration-line: underline;
+    text-decoration-color: #b2b4a8;
+  }
+
 </style>
