@@ -11,7 +11,7 @@ body {
     /* padding: 1% 20%; */
     text-align: justify;
 
-    background-image: url('./public/background.jpg');
+    background-image: url('../public/background.jpg');
     background-size: 100%;
     background-repeat: repeat-y;
 
