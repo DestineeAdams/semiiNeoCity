@@ -1,26 +1,11 @@
 ---
 import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
+import BasicLayout from '../layouts/basicLayout.astro';
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>art giudes</title>
-</head>
-<body>
-    <Navigation />
-    
-    <div>
-        <h1> art giudes </h1>
+<BasicLayout pagetitle={"art giudes"}, title={"art & drawing giudes"}, subtitle={null}, description={"Trying to get better at drawing. Here are some resources i've accumulated over my journey so far"} >
 
-        <p>Trying to get better at drawing. Here are some resources i've accumulated over my just</p> 
-
-        <hr>
-
+     
         <h4>reference poses</h4>
         <p><a href="http://referenceangle.com/">referenceangle</a></p>
         <p><a href="https://www.posespace.com/ArtReferencePoses.aspx">posespace</a></p>
@@ -33,6 +18,4 @@ import Navigation from '../components/Navigation.astro';
         <p><a href="https://bueskenart.com/head-drawing-methods/">The Best Head Drawing Methods(Loomis vs Reilly vs Asaro)</a></p>
         <p><a href="https://www.proko.com/">proko drawing courses</a></p>
 
-    </div>
-</body>
-</html>
+</BasicLayout>

@@ -1,25 +1,10 @@
 ---
 import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
+import BasicLayout from '../layouts/basicLayout.astro';
 ---
 
-<!DOCTYPE html>
-<html lang="en">
+<BasicLayout pagetitle={"p5.js inspo"}, title={"p5.js inspo"}, subtitle={null}, description={null}>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-
-
-    <title>p5 inspiration</title>
-</head>
-
-<body>
-    <Navigation />
-    
-    <div>
-        <h1>Inspirational p5 project</h1>
 
         <p>Here is the <a href="https://openprocessing.org/">Open processing foundation</a> official site and <a
                 href="https://p5js.org/">p5.js</a> official site </p>
@@ -58,7 +43,4 @@ import Navigation from '../components/Navigation.astro';
         <p><a href="https://openprocessing.org/sketch/2332219">Oligame</a></p>
         <p><a href="https://openprocessing.org/sketch/2312482">Rapid football</a></p>
 
-    </div>
-</body>
-
-</html>
+    </BasicLayout>
