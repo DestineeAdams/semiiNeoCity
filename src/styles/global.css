@@ -11,7 +11,7 @@ body {
     /* padding: 1% 20%; */
     text-align: justify;
 
-    background-image: url('../public/ditheredleaves.png');
+    background-image: url('../../public/ditheredleaves.png');
     background-size:100%;
     background-repeat: repeat-y;
     text-align: center;
@@ -21,7 +21,7 @@ body {
   div{
  
     background-color: #6faf69;
-    background-image: url('../public/dithered-image.png');
+    background-image: url('../../public/dithered-image.png');
     background-size: auto;
 
     border-radius: 5px;

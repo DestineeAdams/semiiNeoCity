@@ -1,0 +1,21 @@
+---
+import '../styles/global.css';
+import BasicLayout from './basicLayout.astro';
+
+interface Props {
+pagetitle: string;
+title: string;
+subtitle: string;
+description: string;
+}
+const {pagetitle, title, subtitle, description} = Astro.props;
+---
+
+
+
+    <BasicLayout pagetitle={"blog"}, title={"blog"}, subtitle={"The place I put my thoughts"}, description={null}>
+        <ul>
+            <li><a href="../../posts/post-1/">Post 1</a></li>
+        </ul>
+
+    </BasicLayout>
