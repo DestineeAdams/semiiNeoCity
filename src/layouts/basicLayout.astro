@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Navigation from '../components/Navigation.astro';
+import Topbar from '../components/topbar.astro';
 
 interface Props {
     pagetitle: string;
@@ -23,7 +24,7 @@ const {pagetitle, title, subtitle, description} = Astro.props;
 </head>
 
 <body>
-    
+    <Topbar />
     <Navigation />
     
     <div>
