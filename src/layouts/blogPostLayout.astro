@@ -5,7 +5,6 @@ import BasicLayout from './basicLayout.astro';
 const {frontmatter} = Astro.props;
 
 ---
-<html>
 
 <BasicLayout pagetitle={null}, title={null}, subtitle={null}, description={null}>
 
@@ -18,5 +17,3 @@ const {frontmatter} = Astro.props;
     <slot /> <!-- Markdown content is injected here -->
 
 </BasicLayout>
-
-</html>
