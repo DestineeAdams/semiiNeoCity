@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/BlogPostLayout.astro
+layout: ./src/layouts/blogPostLayout.astro
 
 title: you gotta start somewhere
 author: Semii
