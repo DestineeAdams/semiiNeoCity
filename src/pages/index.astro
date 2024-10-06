@@ -5,29 +5,35 @@ import NeocitiesButton from '../components/neocitiesButton.astro';
 
 ---
 
-    <BasicLayout pagetitle={"home"}, title={"welcome!"}, subtitle={null}, description={null}>
+<BasicLayout pagetitle={"home"}, title={"welcome!"}, subtitle={null}, description={null}>
+<div>
+    <img id="profileImg" src="../meInAHoodyDithered2.png"
+        alt="me in a light blue Hoodie with the word PINK across the chest">
 
-            <img id="profileImg" src="../meInAHoodyDithered2.png"
-                alt="me in a light blue Hoodie with the word PINK across the chest">
+    <p>Hi! <br>  I'm Semii! </p>
+    
+    <p>Some fun facts about me:</p>
+    <ul>
+        <li>I enjoy staying active</li>
+        <li>I've have several jobs in education</li>
+        <li>I find yard work satisfying</li>
+    </ul>
 
-            <p>
-                Hi!
-                <br>
-                I'm Semii!
-            </p>
+    <br>
+    <NeocitiesButton />
 
-            <p>Some fun facts about me:</p>
-            <ul>
-                <li>I enjoy staying active</li>
-                <li>I've have several jobs in education</li>
-                <li>I find yard work satisfying</li>
-            </ul>
-            
-            <br>
-            <NeocitiesButton />
-            
-            
+</div>
 
-        </BasicLayout>
+</BasicLayout>
 
 
+<style>
+    img {
+        float: right;
+    }
+    
+    div{
+        background: none;
+        text-align: left;
+    }
+</style>
