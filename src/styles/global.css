@@ -65,7 +65,8 @@ img {
 }
 
 ul {
-  display: inline-block;
+  padding-left: 100px;
+  /* float: left; */
   text-align: left;
-  padding-left: 20px;
 }
+
