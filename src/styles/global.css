@@ -11,8 +11,9 @@ body {
   background-color: rgb(23, 5, 57);
 
 
-  font:25px "myFirstFont", "Jersey 25", "sans-serif";
-  font-weight: 400;
+  font:30px "myFirstFont", "Jersey 25", "sans-serif";
+  /* font-weight: 400; */
+  
   
   margin: 5% 30%;
   /* padding: 1% 20%; */
@@ -36,27 +37,41 @@ div {
   padding: 15px;
   /* padding-top: 5px; */
 
-  color: #f6fadd;
+  color: #fdfdfd;
 }
 
 
 h1, h2, h2, h4, h2, h6 {
   text-transform: capitalize;
+  color: #f0ffc4;
+  
+  font-weight: bolder;
+  /* font-size: xx-large; */
   /* text-decoration-line: underline; */
 }
 
 
 a {
-  color: #f4dea2;
+  /* color: #f4dea2; */
+  /* color: #fffcf3; */
+  color: #acfa92;
+
+  
+  font-weight: bolder;
+  
+
 
   text-decoration-line: none;
   text-transform: capitalize;
 
-
 }
 
+
+
 a:hover {
-  color: #acc7f6;
+  /* color: #acc7f6; */
+  color: #5996ff;
+
   text-transform: uppercase;
 
   text-decoration-line: underline;
@@ -74,5 +89,9 @@ ul {
   padding-left: 100px;
   /* float: left; */
   text-align: left;
+  
+  /* list-style-image: url('../assets/branchTwo20dithered.png'); */
+  list-style-image: url('../assets/branchone15dithered.png');
+
 }
 
