@@ -30,7 +30,10 @@ div {
 
   background-color: #6faf69;
   background-image: url('../../public/dithered-image.png');
-  background-size: auto;
+  /* background-image: url('../../public/divBackgroud.png'); */
+
+  background-size: atuo;
+  
 
   border-radius: 5px;
 
@@ -54,7 +57,7 @@ h1, h2, h2, h4, h2, h6 {
 a {
   /* color: #f4dea2; */
   /* color: #fffcf3; */
-  color: #acfa92;
+  color: #316022;
 
   
   font-weight: bolder;
