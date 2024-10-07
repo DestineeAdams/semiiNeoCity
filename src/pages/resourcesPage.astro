@@ -8,18 +8,22 @@ import BasicLayout from '../layouts/basicLayout.astro';
 
 <BasicLayout pagetitle={"resources"}, title={"resources"}, subtitle={null}, description={"Here are some resources i've been Collecting"}>
         
-        <p><a href="../micahlist/"> Micah website list </a></p>
-        <p><a href="../p5projectinpso/"> p5.js project for inspiration </a> </p>
-        <p><a href="../artsites/"> resources for art and drawing </a></p>
-        <p><a href="../favarticles/"> Articles I loved</a></p>
-    
+        <ul>
+                <li><a href="../micahlist/"> Micah website list </a></li>
+                <li><a href="../p5projectinpso/"> p5.js project for inspiration </a></li>
+                <li><a href="../artsites/"> resources for art and drawing </a></li>
+                <li><a href="../favarticles/"> Articles I loved</a></li>
+        </ul>
+      
 </BasicLayout>
 
 
 
 <style>
-        p{
+        ul{
                 text-align: left;
-                padding-left: 50px;
+                padding-left: 15px;
+                list-style-type: none;
+
         }
 </style>
