@@ -28,13 +28,14 @@ body {
 
 div {
 
-  background-color: #6faf69;
-  background-image: url('../../public/dithered-image.png');
-  /* background-image: url('../../public/divBackgroud.png'); */
+  background-color: #6faf69e4;
+  /* background-image: url('../../public/dithered-image.png'); */
+  background-image: url('../../public/divbackround5.png');
 
-  background-size: atuo;
+  background-size: auto 1000px;
+
+  background-repeat: repeat-y;
   
-
   border-radius: 5px;
 
   padding: 15px;

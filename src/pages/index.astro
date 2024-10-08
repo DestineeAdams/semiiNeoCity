@@ -5,7 +5,7 @@ import NeocitiesButton from '../components/neocitiesButton.astro';
 
 ---
 
-<BasicLayout pagetitle={"home"}, title={"welcome!"}, subtitle={null}, description={null}>
+<BasicLayout pagetitle={"Semii"}, title={"welcome!"}, subtitle={null}, description={null}>
     <div>
         <img id="profileImg" src="../meInAHoodyDithered2.png"
             alt="me in a light blue Hoodie with the word PINK across the chest">
@@ -22,25 +22,44 @@ import NeocitiesButton from '../components/neocitiesButton.astro';
         </ul>
 
         <br>
-        <NeocitiesButton />
-
     </div>
 
 </BasicLayout>
 
+<footer>
+    <NeocitiesButton />
+    <img src="../../public/shappicLeanBi.png" alt="shappic Leaning bi button" style="width:30%">
+
+</footer>
 
 <style>
     img {
         float: right;
+
     }
 
     div {
         background: none;
         text-align: left;
+
     }
 
     ul {
         padding-left: 20px;
         text-align: left;
+    }
+
+    footer {
+
+        background-color: #6faf69e4;
+        background-image: url('../../public/divbackround5.png');
+
+        background-size: auto 2000px;
+
+        background-repeat: repeat-y;
+
+        border-radius: 5px;
+        margin: 20px 0px;
+        border-radius: 5px;
     }
 </style>
