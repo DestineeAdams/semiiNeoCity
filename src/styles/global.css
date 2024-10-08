@@ -22,6 +22,7 @@ body {
   background-image: url('../../public/ditheredleaves.png');
   background-size: 100%;
   background-repeat: repeat-y;
+  
   text-align: center;
 
 }
@@ -32,7 +33,7 @@ div {
   /* background-image: url('../../public/dithered-image.png'); */
   background-image: url('../../public/divbackround5.png');
 
-  background-size: auto 1000px;
+  background-size: auto;
 
   background-repeat: repeat-y;
   
@@ -74,7 +75,7 @@ a {
 
 a:hover {
   /* color: #acc7f6; */
-  color: #5996ff;
+  color: #317af8;
 
   text-transform: uppercase;
 

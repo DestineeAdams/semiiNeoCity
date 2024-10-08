@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 import BasicLayout from '../layouts/basicLayout.astro';
-import NeocitiesButton from '../components/neocitiesButton.astro';
+import ButtonContainer from '../components/ButtonContainer.astro';
 
 ---
 
@@ -27,9 +27,7 @@ import NeocitiesButton from '../components/neocitiesButton.astro';
 </BasicLayout>
 
 <footer>
-    <NeocitiesButton />
-    <img src="../../public/shappicLeanBi.png" alt="shappic Leaning bi button" style="width:30%">
-
+    <ButtonContainer/>
 </footer>
 
 <style>
@@ -53,13 +51,15 @@ import NeocitiesButton from '../components/neocitiesButton.astro';
 
         background-color: #6faf69e4;
         background-image: url('../../public/divbackround5.png');
-
-        background-size: auto 2000px;
-
+        background-size: auto;
         background-repeat: repeat-y;
 
         border-radius: 5px;
-        margin: 20px 0px;
+        padding: 15px;
+
+        color: #fdfdfd;
+
         border-radius: 5px;
+        margin: 20px 0px;
     }
 </style>
