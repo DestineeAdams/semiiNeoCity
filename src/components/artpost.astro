@@ -1,0 +1,48 @@
+---
+    
+interface Props {
+    title: string;
+    description: string;
+    imgpath: string;
+    alttxt: string;
+    date: string;
+}
+const {title, description, imgpath, alttxt, date} = Astro.props;
+---
+
+
+<div>
+    <h3>{title}</h3> 
+    <p>{date}</p>
+    <p>{description}</p>
+    
+    <img src={imgpath} alt={alttxt}>
+</div>
+
+
+<style>
+    p{
+        line-height: 75%;
+        font: normal;
+        font-kerning: ;
+    }
+    div{
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        margin: 20px 0px;
+        
+        /* padding: 0.9% 10% 10%; */
+        padding: 5% 10%;
+
+        
+        text-align: justify;
+        /* width: 70%; */
+    }
+    
+    img{
+        width: 75%;
+        padding: 0px;
+        margin: 1px auto;
+
+    }
+</style>

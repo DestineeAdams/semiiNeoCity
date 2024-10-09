@@ -30,8 +30,7 @@ body {
 div {
 
   background-color: #87af69e6;
-  /* background-image: url('../../public/dithered-image.png'); */
-  background-image: url('../../public/divbackround5.png');
+  background-image: url('../../public/divbackround6.png');
 
   background-size: auto;
 
@@ -40,7 +39,6 @@ div {
   border-radius: 5px;
 
   padding: 15px;
-  /* padding-top: 5px; */
 
   color: #fdfdfd;
 }
@@ -51,8 +49,6 @@ h1, h2, h2, h4, h2, h6 {
   color: #f0ffc4;
   
   font-weight: bolder;
-  /* font-size: xx-large; */
-  /* text-decoration-line: underline; */
 }
 
 
