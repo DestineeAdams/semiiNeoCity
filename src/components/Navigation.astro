@@ -22,14 +22,15 @@
   a {
     background-image: url('../../ditheredleaves.png');
 
-    padding: 1px;
-    /* margin: 0px 5px; */
+    padding: 1px 10px;
+    margin: 1px 5px;
+
 
     border-radius: 5px;
     background-size: auto;
     color: #f4dea2;
     
-    font-size: 40px;
+    font-size: 30px;
     text-decoration-line: none;
     text-transform: capitalize;
 
@@ -42,5 +43,26 @@
 
     text-decoration-line: underline;
     text-decoration-color: #b2b4a8;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    a{
+      padding: 1px 1px;
+    margin: 5px 40px;
+
+
+      display: flex;
+      flex-direction: column;
+      
+    }
+    
+    @media only screen and (min-width: 500px) {
+    a{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      
+    }
+
   }
 </style>
