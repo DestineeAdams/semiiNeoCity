@@ -8,20 +8,33 @@
 }
 
 body{
+  background-image: url('../../public/ditheredleaves.png');
+  background-size: 100%;
+  background-repeat: repeat-y;
 
   font-family: "myFirstFont", 'Courier New', Courier, monospace;
-  background-image: url("../../public/ditheredleaves.png");
   
   color: white;
 
 }
 
 div{
-  background-color: #49e70aa1;
-  background-image: url("../../public/divbackround6.png");
+  font-size: x-large;
+  
+  background-color: #87af69d8;
+  background-image: url('../../public/divbackround6.png');
+  
+  background-size: auto;
+
+  background-repeat: repeat-y;
+  
   border-radius: 5px;
+
+  padding: 1% 5%;
+  margin: 1% 25%;
   
-  width: 50%;
+  color: #fdfdfd;
   
+  text-align: center;
   
 }
