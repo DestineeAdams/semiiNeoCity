@@ -7,92 +7,21 @@
   font-style: normal;
 }
 
-body {
-  background-color: rgb(23, 5, 57);
+body{
 
-
-  font:30px "myFirstFont", "Jersey 25", "sans-serif";
-  /* font-weight: 400; */
+  font-family: "myFirstFont", 'Courier New', Courier, monospace;
+  background-image: url("../../public/ditheredleaves.png");
   
-  
-  margin: 5% 30%;
-  /* padding: 1% 20%; */
-  text-align: justify;
-
-  background-image: url('../../public/ditheredleaves.png');
-  background-size: 100%;
-  background-repeat: repeat-y;
-  
-  text-align: center;
+  color: white;
 
 }
 
-div {
-
-  background-color: #87af69e6;
-  background-image: url('../../public/divbackround6.png');
-
-  background-size: auto;
-
-  background-repeat: repeat-y;
-  
+div{
+  background-color: #49e70aa1;
+  background-image: url("../../public/divbackround6.png");
   border-radius: 5px;
-
-  padding: 15px;
-
-  color: #fdfdfd;
-}
-
-
-h1, h2, h2, h4, h2, h6 {
-  text-transform: capitalize;
-  color: #f0ffc4;
   
-  font-weight: bolder;
-}
-
-
-a {
-  /* color: #f4dea2; */
-  /* color: #fffcf3; */
-  color: #10200b;
-
+  width: 50%;
   
-  font-weight: bolder;
   
-
-
-  text-decoration-line: none;
-  text-transform: capitalize;
-
 }
-
-
-
-a:hover {
-  /* color: #acc7f6; */
-  color: #317af8;
-
-  text-transform: uppercase;
-
-  text-decoration-line: underline;
-  text-decoration-color: #b2b4a8;
-}
-
-img {
-  width: 20%;
-  height: auto;
-  border-radius: 5px;
-  margin: 15px;
-}
-
-ul {
-  padding-left: 100px;
-  /* float: left; */
-  text-align: left;
-  
-  /* list-style-image: url('../assets/branchTwo20dithered.png'); */
-  list-style-image: url('../assets/branchone15dithered.png');
-
-}
-
