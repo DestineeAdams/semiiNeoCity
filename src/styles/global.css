@@ -3,7 +3,8 @@
 @font-face {
   font-family: myFirstFont;
   src: url(../assets/Messyhandwriting-Regular.otf), url(../assets/Messyhandwriting-Regular.ttf);
-  font-weight: bolder;
+  /* font-weight: bolder; */
+
   font-style: normal;
 }
 
