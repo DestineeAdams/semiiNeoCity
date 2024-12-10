@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: myFirstFont;
-  src: url(../assets/Messyhandwriting-Regular.otf), url(../assets/Messyhandwriting-Regular.ttf);
+  src: url(./assets/PlayfulNotes-Bold.otf), url(../assets/PlayfulNotes-Bold.ttf);
   /* font-weight: bolder; */
 
   font-style: normal;
