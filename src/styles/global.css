@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Micro+5&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @font-face {
-  font-family: myFirstFont;
-  src: url(./assets/PlayfulNotes-Bold.otf), url(../assets/PlayfulNotes-Bold.ttf);
-  /* font-weight: bolder; */
-
+  /* font-family: myFirstFont; */
+  src: url(../assets/Chonkfont-Bold.otf), url(../assets/Chonkfont-Bold.ttf);
+ 
   font-style: normal;
 }
 
