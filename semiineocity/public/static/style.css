@@ -33,12 +33,23 @@ h1,h2,h3,h4,h5,h6{
 	color: #f0ffc4;
 	font-weight: bolder;
 }
+
+header{
+	background-color: #5c985eb8;
+	border-radius: 5px;
+	text-align: center;
+	
+	margin: 0% 30%;
+}
   
-a {
-	color: #10200b;
-	font-weight: bolder;
-	text-decoration-line: none;
-	text-transform: capitalize;
+ul{
+	
+	display: flex;
+	flex-flow: row wrap;
+	
+	list-style: none;
+	
+	justify-content: center;
 }
 
 nav ul a {
@@ -60,7 +71,8 @@ nav ul a {
     text-shadow: 1px 2px #ff0000;
 }
 
-a:hover {
+
+a {
 	color: #b8ffc9;
 	text-transform: uppercase;
 	text-decoration-line: underline;
