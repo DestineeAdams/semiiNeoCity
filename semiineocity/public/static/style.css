@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Micro+5&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Chonkfont-Bold.otf), url(Chonkfont-Bold.ttf);
+ 
+  font-style: normal;
+}
+
+
+body{
+	background-image: url("../images/ditheredleaves.png");
+	background-size: 100%;
+    background-repeat: repeat-y;
+    
+	color: white;
+	
+	font-family: myFirstFont;
+
+}
+
+
+p{
+	font-weight: bold;
+}
+
+img{
+	border-radius: 5px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	text-transform: capitalize;
+	color: #f0ffc4;
+	font-weight: bolder;
+}
+  
+a {
+	color: #10200b;
+	font-weight: bolder;
+	text-decoration-line: none;
+	text-transform: capitalize;
+}
+
+nav ul a {
+
+    background-image: url('../../ditheredleaves.png');
+
+    padding: 1px 10px;
+    margin: 1px 5px;
+
+
+    border-radius: 5px;
+    background-size: auto;
+    color: #f4dea2;
+    
+    font-size: 30px;
+    text-decoration-line: none;
+    text-transform: capitalize;
+
+    text-shadow: 1px 2px #ff0000;
+}
+
+a:hover {
+	color: #b8ffc9;
+	text-transform: uppercase;
+	text-decoration-line: underline;
+	text-decoration-color: #b2b4a8;
+}
