@@ -8,6 +8,12 @@
 }
 
 
+/* todo 
+	remove px replace with % 
+	fixed flexs box
+	
+*/
+
 body{
 	background-image: url("../images/ditheredleaves.png");
 	background-size: 100%;
@@ -16,6 +22,10 @@ body{
 	color: white;
 	
 	font-family: myFirstFont;
+	
+		
+	margin: 0% 30%;
+	padding: 1% 0%;
 
 }
 
@@ -35,26 +45,29 @@ h1,h2,h3,h4,h5,h6{
 }
 
 header{
-	background-color: #5c985eb8;
+	background-color: #5c985ece;
 	border-radius: 5px;
 	text-align: center;
 	
-	margin: 0% 30%;
+	padding: 1% 0%;
+	margin: 5% 0;
+
+
 }
   
-ul{
-	
-	display: flex;
-	flex-flow: row wrap;
+header ul{
 	
 	list-style: none;
 	
-	justify-content: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;	
 }
+
 
 nav ul a {
 
-    background-image: url('../../ditheredleaves.png');
+	background-image: url("../images/ditheredleaves.png");
 
     padding: 1px 10px;
     margin: 1px 5px;
@@ -72,9 +85,22 @@ nav ul a {
 }
 
 
+main{
+	text-align: center;
+	background-color: #5c985ece;
+	border-radius: 5px;
+
+    padding: 3% 0;
+	
+}
+
+
 a {
 	color: #b8ffc9;
 	text-transform: uppercase;
 	text-decoration-line: underline;
 	text-decoration-color: #b2b4a8;
 }
+
+
+

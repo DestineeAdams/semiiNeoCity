@@ -21,7 +21,12 @@ body{
     
 	color: white;
 	
-	font-family: myFirstFont;
+	font: 1em myFirstFont;
+	
+		
+	margin: 0% 30%;
+	padding: 1% 0%;
+	
 
 }
 
@@ -38,28 +43,28 @@ h1,h2,h3,h4,h5,h6{
 	text-transform: capitalize;
 	color: #f0ffc4;
 	font-weight: bolder;
+	
+	
 }
 
 header{
-	background-color: #5c985eb8;
+	background-color: #5c985ece;
 	border-radius: 5px;
 	text-align: center;
 	
-	margin: 0% 30%;
-	/* padding: 1% 0%; */
+	padding: 1% 0%;
+	margin: 5% 0;
+
+
 }
   
-header ul li{
+header ul{
 	
 	list-style: none;
 	
 	display: flex;
 	flex-flow: row wrap;
-	
-	justify-content: center;
-	
-
-	
+	justify-content: center;	
 }
 
 
@@ -75,11 +80,21 @@ nav ul a {
     background-size: auto;
     color: #f4dea2;
     
-    font-size: 30px;
+    font-size: 200%;
     text-decoration-line: none;
     text-transform: capitalize;
 
     text-shadow: 1px 2px #ff0000;
+}
+
+
+main{
+	text-align: center;
+	background-color: #5c985ece;
+	border-radius: 5px;
+
+    padding: 3% 0;
+	
 }
 
 
@@ -89,3 +104,6 @@ a {
 	text-decoration-line: underline;
 	text-decoration-color: #b2b4a8;
 }
+
+
+
