@@ -37,14 +37,14 @@ p{
 
 img{
 	border-radius: 5px;
+	width: 15%;
 }
 
 h1,h2,h3,h4,h5,h6{
 	text-transform: capitalize;
 	color: #f0ffc4;
-	font-weight: bolder;
-	
-	
+	font-weight: bolder;	
+	font-size: 250%;
 }
 
 header{
@@ -52,39 +52,38 @@ header{
 	border-radius: 5px;
 	text-align: center;
 	
-	padding: 1% 0%;
+	padding: 1%;
 	margin: 5% 0;
-
-
 }
   
-header ul{
-	
+header ul{	
 	list-style: none;
 	
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: center;	
+	justify-content: center;
+	gap: 2%;
+	
+	padding: 0;
 }
+
 
 
 nav ul a {
 
 	background-image: url("../images/ditheredleaves.png");
 
-    padding: 1px 10px;
-    margin: 1px 5px;
-
-
     border-radius: 5px;
     background-size: auto;
     color: #f4dea2;
     
-    font-size: 200%;
+    font-size: 160%;
     text-decoration-line: none;
     text-transform: capitalize;
 
     text-shadow: 1px 2px #ff0000;
+    
+    padding: 0 1%;
 }
 
 
@@ -105,5 +104,23 @@ a {
 	text-decoration-color: #b2b4a8;
 }
 
+main ul {
+	text-align: left;
+	
+
+}
+
+footer{
+	background-color: #5c985ece;
+	height: 50px;
+	margin: 5% 0;
+	padding: 2% 0;
+	border-radius: 5px;
+	
+	text-align: center;
+}
 
 
+footer img {
+	width: 25%;
+}
