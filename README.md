@@ -10,7 +10,8 @@ ironite new_project $project_name
 ```
 Example
 ```bash
-ironite new_project "My simple static blog"
+ironite 
+
 ```
 This will generate some basic project files and directories.
 

@@ -112,9 +112,15 @@ main ul {
 
 footer{
 	background-color: #5c985ece;
-	height: 100px;
+	height: 50px;
 	margin: 5% 0;
+	padding: 2% 0;
 	border-radius: 5px;
 	
 	text-align: center;
+}
+
+
+footer img {
+	width: 25%;
 }
