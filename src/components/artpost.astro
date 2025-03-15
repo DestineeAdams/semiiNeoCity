@@ -15,7 +15,7 @@ const {title, description, imgpath, alttxt, date} = Astro.props;
     <h3>{title}</h3> 
     <p>{date}</p>
     <p>{description}</p>
-    
+    <slot /> 
     <img src={imgpath} alt={alttxt}>
 </div>
 
