@@ -1,8 +1,13 @@
 body {
 	width: 1000px;
-	background-color: rgb(134, 227, 106);
+	color: white;
 }
 
 a {
 	padding: 3px;
+}
+
+header, main, div, footer {
+	background-color: #5b985eba;
+
 }
