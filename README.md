@@ -6,6 +6,8 @@ My Neocities website is where I post blogs, art, helpful resources, and express 
 
 ![demo gif](https://semii.space/files/SemiiNeoCites.gif)
 
+![demo gif](https://semii.space/files/zineIdeaGenerator.gif)
+
 ## How It's Made:
 
 **Tech used:**  html, JavaScript, CSS, [Astro](https://astro.build/) for the static site generator, [calligraphr](https://www.calligraphr.com/en/) for the font
