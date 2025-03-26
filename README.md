@@ -6,7 +6,6 @@ My Neocities website is where I post blogs, art, helpful resources, and express 
 
 ![demo gif](https://semii.space/files/SemiiNeoCites.gif)
 
-![demo gif](https://semii.space/files/zineIdeaGenerator.gif)
 
 ## How It's Made:
 
