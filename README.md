@@ -1,6 +1,5 @@
 # semiiNeoCity
-
-My Neocities website is where I post blogs, art, helpful resources, and express my creativity.
+A static site made with Astro where I blog, share resources, and post art. Designed to feel personal and expressive, featuring a custom font made with Calligraphr.
 
 **Link to project:** https://semii.neocities.org/
 
