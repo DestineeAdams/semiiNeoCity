@@ -4,7 +4,7 @@ My Neocities website is where I post blogs, art, helpful resources, and express 
 
 **Link to project:** https://semii.neocities.org/
 
-![demo gif](https://semii.space/files/SemiiNeoCites.gif)
+![demo gif](https://github.com/DestineeAdams/portfolio-Website/blob/main/files/SemiiNeoCites.gif?raw=true)
 
 
 ## How It's Made:
