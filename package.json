@@ -1,0 +1,20 @@
+{
+  "name": "semiineocity",
+  "version": "1.0.0",
+  "description": "semiineosite repo",
+  "homepage": "https://github.com/DestineeAdams/semiiNeoCity#readme",
+  "bugs": {
+    "url": "https://github.com/DestineeAdams/semiiNeoCity/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DestineeAdams/semiiNeoCity.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
