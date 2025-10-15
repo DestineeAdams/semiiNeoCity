@@ -35,6 +35,13 @@ main {
   top: 0px;
   }
   
+
+
+  code{
+    background-color: #10200b;
+
+  }
+
 header {
   background: black;
   height: 300px;
